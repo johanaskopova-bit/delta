@@ -48,6 +48,19 @@
     // Console.WriteLine($"Výška: {vyska}");
     // Console.WriteLine($"Třída A/B: {trida}");
     // Console.WriteLine($"Je plnoletý/á: {jePlnoleta}");
+
+    if (trida >= 'A' && trida <= 'Z')
+    {
+        Console.WriteLine("Trida byla napsana jako velke pismeno");
+    }
+    else if (trida >= 'a' && trida <= 'z')
+    {
+        Console.WriteLine("Trida byla napsana jako male pismeno.");
+    }
+    else
+    {
+        Console.WriteLine("Trida nebyla napsana jako pismeno anglicke abecedy.");
+    }
     
     Console.Write("Zmacknete libovolnou klavesu pro ukonceni programu.");
     Console.ReadKey();
