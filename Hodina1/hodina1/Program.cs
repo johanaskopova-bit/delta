@@ -30,8 +30,18 @@
     char trida = char.Parse(Console.ReadLine());
     // Console.WriteLine(trida);
     
+   bool jePlnoleta = false;
+
+    if (vek >= 18)
+    {
+        jePlnoleta = true;
+    }
+    
     Console.WriteLine();
     Console.WriteLine($"Ahoj, já jsem {jmeno}. Je mi {vek}. Měřím {vyska} metrů a chodím do třídy {trida}.\r\n");
+
+    string splneniPlnoletostiString = jePlnoleta ? "Splnuje" : "Nesplnuje";
+    Console.WriteLine($"{splneniPlnoletostiString} plnoletost");
     
     // Console.WriteLine($"Jméno: {jmeno}");
     // Console.WriteLine($"Věk: {vek}");
