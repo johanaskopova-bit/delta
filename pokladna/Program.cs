@@ -8,14 +8,30 @@
     int listek = 120;
     Console.WriteLine("zaplatil");
     int zaplatil = int.Parse(Console.ReadLine());
-    int hodnota = zaplatil-(pocetListku*listek);
-    if (hodnota >= zaplatil)
+    int celkovaCena = pocetListku * listek;
+    int rozdil = zaplatil-celkovaCena;
+    // int absolutniHodnota = Math.Abs(hodnota);
+    // if (hodnota >= zaplatil)
+    // {
+    //     Console.WriteLine("vratilo se: " + hodnota);
+    // }
+    // else
+    // {
+    //     Console.WriteLine("Málo jste zaplatily");
+    // }
+    
+    // e code:
+    if (rozdil > 0)
     {
-        Console.WriteLine("vratilo se: " + hodnota);
+        Console.WriteLine("Vratit: " + rozdil);
+    }
+    else if (rozdil == 0)
+    {
+        Console.WriteLine("Zaplaceno akorat.");
     }
     else
     {
-        Console.WriteLine("Málo jste zaplatily");
+        Console.WriteLine("Zbyvajici castka k doplaceni: " + Math.Abs(rozdil));
     }
     
     
