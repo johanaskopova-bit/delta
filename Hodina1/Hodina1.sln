@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hodina1", "hodina1\hodina1.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokladna", "..\pokladna\pokladna.csproj", "{84B3F33F-D66F-4B87-A549-D666DAEF520A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch", "switch\switch.csproj", "{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{84B3F33F-D66F-4B87-A549-D666DAEF520A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84B3F33F-D66F-4B87-A549-D666DAEF520A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84B3F33F-D66F-4B87-A549-D666DAEF520A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
