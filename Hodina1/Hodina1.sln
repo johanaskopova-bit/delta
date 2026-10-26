@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pokladna", "..\pokladna\pok
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "switch", "switch\switch.csproj", "{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kontrolaKVstupu", "kontrolaKVstupu\kontrolaKVstupu.csproj", "{833D1270-2D47-448F-AD63-E42B69D5DD8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "loop", "loop\loop.csproj", "{1D3DD8F2-C43E-4474-86A3-5120D139D8A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bankomat", "bankomat\bankomat.csproj", "{4E3387B9-4555-4657-8410-A6052CDE6530}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +30,17 @@ Global
 		{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6303BD6C-68EC-49B5-AB7D-ECFB30E0E91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{833D1270-2D47-448F-AD63-E42B69D5DD8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{833D1270-2D47-448F-AD63-E42B69D5DD8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{833D1270-2D47-448F-AD63-E42B69D5DD8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{833D1270-2D47-448F-AD63-E42B69D5DD8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3DD8F2-C43E-4474-86A3-5120D139D8A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3DD8F2-C43E-4474-86A3-5120D139D8A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3DD8F2-C43E-4474-86A3-5120D139D8A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3DD8F2-C43E-4474-86A3-5120D139D8A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E3387B9-4555-4657-8410-A6052CDE6530}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E3387B9-4555-4657-8410-A6052CDE6530}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E3387B9-4555-4657-8410-A6052CDE6530}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E3387B9-4555-4657-8410-A6052CDE6530}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
